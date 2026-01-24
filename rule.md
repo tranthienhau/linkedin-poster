@@ -7,6 +7,7 @@ When user asks "Generate proposal for Thao" or "Generate proposal for Minh":
 3. Read the appropriate profile from `profiles/thao_exp.md` or `profiles/minh_exp.md`
 4. Generate proposal using the format below:
    - Create a CONCISE OPENING (2-3 sentences) based on the job post that shows understanding of client needs
+   - Use Unicode bold style (𝐛𝐨𝐥𝐝) for any keywords that match those listed in `keywords.md`
    - Replace `<CONCISE_OPENING>` placeholder with the generated opening
    - Output to `out/proposal.md`
 5. Generate answers for all questions in job_questions.md:
@@ -18,9 +19,7 @@ When user asks "Generate proposal for Thao" or "Generate proposal for Minh":
 
 # Format for Thao
 
-Hi,
-
-<CONCISE_OPENING>
+Hi, <CONCISE_OPENING>
 
 𝐈 𝐜𝐚𝐧 𝐡𝐞𝐥𝐩 💪
 
@@ -63,9 +62,7 @@ Thao Vu
 
 # Format for Minh
 
-Hi,
-
-<CONCISE_OPENING>
+Hi, <CONCISE_OPENING>
 
 𝐈 𝐜𝐚𝐧 𝐡𝐞𝐥𝐩 💪
 
