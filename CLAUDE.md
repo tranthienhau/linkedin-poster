@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a proposal templating repository for DevOps/Kubernetes freelance consulting. It helps prepare professional proposals for job applications.
 
+## Mandatory Rules
+
+- NEVER use the em dash character `—` anywhere in proposals or answers. Use `-` or `,` instead.
+
 ## Generating Proposals
 
 When user asks "Generate proposal for Thao" or "Generate proposal for Minh":
@@ -16,10 +20,12 @@ When user asks "Generate proposal for Thao" or "Generate proposal for Minh":
 4. Generate proposal using the format in `rule.md`:
    - Create a CONCISE OPENING (2-3 sentences) based on the job post
    - Replace `<CONCISE_OPENING>` placeholder with the generated opening
+   - The total proposal must be 800 characters max (including the opening and template)
    - Output to `out/proposal.md`
 5. Generate answers for all questions in job_questions.md:
    - Base answers on the profile experience and certifications
    - Make answers specific and relevant to the job post
+   - Each answer must be 800 characters max
    - Output to `out/answers.md`
 
 ## Key Files
